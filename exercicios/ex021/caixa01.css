@@ -1,0 +1,56 @@
+                            /* Block-level */
+
+h1 { 
+    background-color: lightseagreen;
+    height: 300px;
+    width: 300px;
+
+    /*
+    ShortHand border -> border: 10px solid darkslategray;
+    */
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+
+    /*
+    ShortHand padding ->  padding: 10px 10px 10px 10px;
+    */
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    /*
+    ShortHand margin -> margin: 10px 10px 10px 10px;
+    */
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    /*
+    ShortHand outline -> outline: 5px dashed salmon;
+    */
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+
+}
+
+                            /* Inline-level */
+a { 
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}

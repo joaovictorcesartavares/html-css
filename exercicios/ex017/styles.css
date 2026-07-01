@@ -1,0 +1,29 @@
+body {
+    font: italic bold 1em Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+
+/* Primeiro ele vai pegar a Arial, depois a Helvetica e Depois sans-serif.
+Isso é de extrema importância, pois as vezes alguns dispositivos podem não ter a Arial e etc....*/
+
+
+/* 
+Medidas Absolutas
+cm, mm, in px, pt, pc
+
+Medidas Relativas
+em, ex, rem, vw, vh, %
+
+16px geralmente = 1em
+*/
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(24, 97, 126);
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(33, 136, 161);
+}

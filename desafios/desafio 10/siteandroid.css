@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+@font-face{
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "Noto Serif",Arial, Helvetica, sans-serif;
+    background-color: #1ef76a7a;
+    margin: 0px;
+
+}
+
+header{
+    background-image: linear-gradient(180deg, #10d96ac0, #0e7833c4, #073818e3);
+    color: #ffffff;
+    padding: 4px;
+    margin: 0px; 
+}
+
+header > h1{
+   font-family: "Noto Serif", Arial, Helvetica, sans-serif;
+   text-shadow: 1px 1.5px 3px #0000007e;
+   text-align: center;
+   padding: 5px;
+   margin: 10px 0px 0px 0px;
+}
+
+header > p{
+    font-family: "Noto Serif", Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1.5px 3px #0000007e;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    padding: 25px;
+}
+
+header > nav > a {
+    background-color: transparent;
+    transition: background-color 0.5s;
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1.5px 3px #0000007e;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px;
+    margin: 2px;
+}
+
+header > nav > a:hover {
+    background-color: #00000089;
+    color: #ffffffd4;
+    transition-duration: 0.5s;
+}
+
+header > nav > a:active {
+    color: #ffffff94;
+} 
+
+main {
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.historiaMascote > h2{
+    color: #0E7833;
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 20px 15px 15px 11px;
+
+}
+
+.historiaMascote > p{
+    text-align: justify;
+    text-indent: 30px;
+    margin: 0px; 
+    padding: 0px 18px 8px 18px;
+
+}
+
+.sobreMascote > h3{
+    background-image: linear-gradient(90deg, #1ef76a50,  #1ef76a2c,  #1ef76a0c);
+    color:#0E7833;
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+
+.sobreMascote > p{
+    text-align: justify;
+    text-indent: 30px;
+    margin: 0px; 
+    padding: 0px 18px 8px 18px;
+
+}
+
+
+
+
+
+/* Imagem dos Dandroids */
+#dandroids{
+    display: block;
+    text-align: center;
+}
+
+
+/*Imagem da Irina*/
+#irina{
+    display: block;
+    text-align: center;
+}
+
+/*Imagem do BugDroid*/
+#bugdroid{
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Decoração dos links */
+.links{
+    background-color: #23d16023;
+    color: #0E7833;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links:hover{
+    transition-duration: 0.2s;
+    color: #23d160;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* Decoração para mensagens em destaque */
+.mensagemDestaque {
+    color: #0E7833;
+    font-weight: bold;
+}
+
+
+/*Video Android*/
+
+#video {
+    background-color: #094f22c9;
+    text-align: center;
+    aspect-ratio: 16 / 9;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+}
+
+#video > iframe {
+   width: 100%;
+   height: 100%;
+   border: none;
+}
+
+
+
+
+
+
+#asideAprenderMais {
+     background-color:  #1ef76a45;
+     margin: 20px 15px 20px 15px;
+     padding: 0px;
+     box-shadow: 3px 0px 5px #0000002a;
+     border-radius: 5px;
+}
+
+#asideAprenderMais > h4 {
+    background-color: #00df82;
+    color: #ffffff;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+    padding: 15px;
+}
+
+#asideAprenderMais > p {
+    text-indent: 30px;
+    text-align: justify;
+    margin: 0px; 
+    padding: 15px 6px 8px 6px;
+}
+
+.asideLista {
+    margin: 0px;
+    padding: 2px 5px 2px 5px;
+    columns: 2;
+}
+
+.destaqueAsideLista {
+    text-decoration: underline;
+}
+
+#mensagemFinal {
+    text-indent: 30px;
+    margin: 0px; 
+    padding: 0px 18px 8px 18px;
+}
+
+
+footer {
+    background-color:  #094f22c9;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+
+footer > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #acacacc9;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footerLink {
+    color: white;
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    color: #e6e6e6;
+    text-decoration: underline;
+}

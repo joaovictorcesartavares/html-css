@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor.</p>
+    <video width="560" height="315" poster="img/video-capa.png" controls>
+        <source src="midia/trem-convertido.mp4" type="video/mp4">
+        <source src="midia/Trem.webm" type="video/webm">
+        <source src="midia/trem.ogv" type="video/ogg">
+        <p>Seu navegador não suporta vídeos. </p>
+    </video>
+
+    <h2>Inserindo videos hospedados externamente</h2>
+    <p>Este video está hospedado no Youtube.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ewiOuXOWjcQ?si=ZHAl3bbJzsr0-eM2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+    <p>Este video está hospedado no Vimeo.</p>
+    <iframe src="https://player.vimeo.com/video/515894085?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="DBZ: Super Saiyan Goku - Cel Shading Study"></iframe>
+</body>
+</html>
