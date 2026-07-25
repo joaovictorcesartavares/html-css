@@ -32,6 +32,19 @@
         color: white;
     }
 
+
+    /*
+    EFEITO ZEBRADO
+        ODD -> impar
+        EVEN -> par
+        2n, 3n, 4n, ... -> A cada certa quantidade uma linha será pintada.
+    */
+
+
+    tbody > tr:nth-child(odd){            /*EFEITO ZEBRADO*/
+        background-color: lightgray;
+    }
+
     td.num{
         text-align: right;
     }
