@@ -14,7 +14,7 @@
             border-collapse: collapse;
         }
 
-        thead, tfoot{
+        thead{
             background-color: gray;
             color: white;
             font-weight: bold;
@@ -34,14 +34,10 @@
             text-align: center;
         }
 
-        #mediaExatas{
+        #mediaExatas, #mediaHumanas{
             background-color: gray;
             color: white;
             font-weight: bold;
-            text-align: left;
-        }
-
-        #mediaHumanas{
             text-align: left;
         }
 
@@ -113,12 +109,15 @@
                 <td class="num">0.0</td>
                 <td class="num">0.0</td>
             </tr>
+
+            <tr id="mediaHumanas">
+                 <th colspan="4" scope="row">Média de Humanas</th>
+                 <td class="num">0.0</td>
+            </tr>
+            
         </tbody>
 
-        <tfoot>
-            <th colspan="4" id="mediaHumanas" scope="row">Média de Humanas</th>
-            <td class="num">0.0</td>
-        </tfoot>
+       
     </table>
 </body>
 </html>
