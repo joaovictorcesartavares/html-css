@@ -3,22 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iframe com conteúdo</title>
-      <style>
-        iframe {
-            display: block;
-            width: 600px;
-            height: 600px;
-            margin: auto;
+    <title>Navegação por iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+
         }
     </style>
 </head>
 <body>
-    <h1>Gerando conteúdo dentro do iframe</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut vel consequatur itaque delectus est placeat accusamus, nobis sed cum saepe nostrum ad veniam qui eum accusantium nemo iure esse minima. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ea praesentium, minima eveniet sapiente placeat officiis non ex similique dolorum quasi ratione voluptatibus commodi! Magni facere eveniet vero natus ratione. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut corrupti mollitia qui ullam possimus. Aperiam provident voluptate dicta, iste nobis explicabo libero animi nemo quam eos, praesentium pariatur maxime fugit?
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis doloremque excepturi rerum, ea beatae illum, quae officiis, blanditiis obcaecati at non. Accusamus cumque odio dolorum soluta recusandae ratione saepe iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, culpa harum aliquid est cumque quas quam at magni minima nesciunt incidunt qui corporis facere odit, labore magnam deserunt distinctio nobis?</p>
 
 
-        <iframe srcdoc="<h2>Teste de conteúdo no iframe</h2><p>Este conteúdo foi gerado dinamicamente</p><img src='cursoemvideo.png'><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, aut deserunt! Officiis sint, porro eius molestias ad in sequi voluptatum mollitia suscipit maxime dolorum obcaecati pariatur a commodi, impedit tempora.</p>" frameborder="0"></iframe>
-    </p>
+    <ul>
+        <li><a href="paginas-extras/outra-pagina01.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/outra-pagina02.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/outra-pagina03.html" target="frame">Terceira página</a></li>
+    </ul>
+
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error reprehenderit fuga delectus rem est ab iste animi facere eos laboriosam, deserunt aliquam quod architecto minus ea commodi veritatis maiores alias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus totam rem expedita porro, impedit, atque quasi quibusdam facilis, incidunt animi exercitationem repellat aliquam dolore voluptatem. Vero dolorem officiis dolores voluptas. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus incidunt veniam porro, recusandae aliquam repudiandae perferendis ad minus reprehenderit fugiat mollitia, dolore, rerum odio maxime sequi ex consectetur provident quam.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h2>Teste de conteúdo no iframe</h2><p>Este conteúdo foi gerado dinamicamente</p><img src='cursoemvideo.png'><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, aut deserunt! Officiis sint, porro eius molestias ad in sequi voluptatum mollitia suscipit maxime dolorum obcaecati pariatur a commodi, impedit tempora.</p>"></iframe>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione unde ex error aperiam! Doloribus totam voluptatum numquam id saepe alias, rem porro amet atque assumenda soluta corporis. Quia, placeat deleniti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum inventore nam, quisquam saepe quas incidunt facere. Explicabo, dolorem temporibus odit vero ab voluptas dignissimos distinctio quo sed nihil? Ab, dignissimos?</p>
 </body>
 </html>
