@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+            <p>
+                <label for="iusu">Usuário:</label>
+                <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="12" placeholder="Digite seu nome" autocomplete="username">
+            </p>
+        
+    
+            <p>
+                <label for="isenha">Senha:</label>
+                <input type="password" name="senha" id="isenha" required minlength="8" maxlength="12" size="12" placeholder="Digite sua senha" autocomplete="current-password">
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+
+    </form>
+
+    <!--
+    Utilizando o input:text e o input:password, conseguimos fazer um formulário de usuario e senha.
+
+    Aqui oq foi aprendido:
+
+    A função "required" define que é necessário que o espaço seja preenchido, se não preenchido, os dados não podem ser enviados.
+
+    A função "minlength" define que a caixa precisa ser preenchida no mínimo pela quantidade de digitos atribuida. Enquanto a função "maxlength" define o máximo de digitos que a caixa suportará.
+
+    A função "size" define o tamanho da caixa. Por exemplo se ali tem que a caixa tem um size de "12" então o tamanho da caixa será para 12 digitos.
+    
+    A função "placeholder" da aquelas dicas que ficam dentro das caixas meio apagadas como "Digite seu nome" "Digite sua senha" e etc.
+
+    A função "autocomplete" quando utilizada dentro dos inputs, faz com que por exemplo: que aquela caixa vai dar dicas de nomes de usuarios que usamos normalmente ou então nós da aquela senha armazenada nos dados de um site quando vamos fazer login novamente etc.
+    
+    -->
+
+
+</body>
+</html>
